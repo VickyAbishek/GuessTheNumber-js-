@@ -1,7 +1,7 @@
 		var random_no = Math.floor( Math.random() * 100 );
 		var count=0;
 		var guesses = [];
-		console.log ( random_no );
+		//console.log ( random_no );
 
 		function btn_pressed()
 		{
@@ -55,7 +55,7 @@
 			!document.querySelector('#gameover') ||  document.querySelector('#gameover').remove();
 			if(document.querySelector('.btn')) document.querySelector('.btn').disabled = false;
 			random_no = Math.floor( Math.random() * 100 );
-			console.log ( "new game" + random_no );
+			//console.log ( "new game" + random_no );
 			count=0;
 			guesses = [];
 		}
