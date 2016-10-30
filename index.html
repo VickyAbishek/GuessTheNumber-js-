@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the number</title>
+	<script src="script/script.js">
+	</script>
+	<style type="text/css">
+		body{
+			border:2px solid green;
+			text-align: center;
+			background-color: #00E676;
+			padding: 50px;
+		}
+		.btn{
+			width:100px;
+			border-radius:5px;
+			margin-top: 10px;
+		}
+		#gameover{
+			font-size: x-large;
+			font-weight: bold;
+			border: 2px solid #f44336;
+			color: #d50000;
+			width: 140px;
+			margin:15px;
+			margin:auto;
+		}
+		#result{
+			margin:auto;
+			color: red;
+			width: 70px;
+			margin-bottom: 10px;
+			color: black;
+			font-weight: bold;
+			font-size: x-large;
+			background-color: #00BCD4;
+			border:2px solid blue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Number guessing game</h1>
+	<p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+	<p> Enter a guess: </p>
+	<input type="textbox" id="tb" name="">
+	<button class="btn" onclick="btn_pressed()">Submit</button>
+</body>
+</html>
